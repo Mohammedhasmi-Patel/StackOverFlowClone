@@ -21,6 +21,15 @@
     else if(isset($_GET['askQuestion'])){
       include "./client/askQuestions.php";
     }
+
+    else if(isset($_GET['questionId'])){
+      include './client/questionDetails.php';
+
+    }
+    
+    else{
+      include './client/questions.php';
+    }
     
     ?>
   

@@ -6,6 +6,27 @@
   text-align: center;
 }
 
+.question-heading {
+  margin-right: 450px;
+}
+
 li a {
   color: rgb(56, 56, 239) !important;
+}
+
+.question-list {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 15px;
+}
+
+.question-list h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.question-list a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #1c7194 !important;
 }

@@ -1,4 +1,4 @@
-<select class="form-control" name="category" id="category">
+<select class="form-control" name="category_id" id="category">
 <option >Select Category</option>
 
 <?php
@@ -11,12 +11,10 @@ $result = $conn->query( $query );
 foreach ($result as  $row) {
 
   $name = $row['name'];
-  $id = $row['id'];
+  $category_id = $row['id'];
 
-  echo "<option value='$id'>$name</option>";
+  echo "<option value='$category_id'>$name</option>";
 }
-
-
 
 ?>
 
