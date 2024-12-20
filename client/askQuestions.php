@@ -14,17 +14,12 @@
   </div>
   <div class=" col-6 offset-sm-3 margin-bottom-15">
     <label for="category"  class="form-label">Category</label>
-    <select class="form-control" name="category" id="category">
-    <option >Select Category</option>
-      <option value="mobile">Mobile</option>
-      <option value="general">General</option>
-      <option value="coding">Coding</option>
-      <option value="gaming">Gaming</option>
-    </select>
+    <?php include "category.php"?>
+    
   </div>
   
   
-  
+
   <div class=" col-6 offset-sm-3 ">
   <button type="submit"  name="login" class="btn btn-primary">Submit</button>
   </div>
