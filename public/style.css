@@ -5,3 +5,7 @@
 .heading {
   text-align: center;
 }
+
+li a {
+  color: rgb(56, 56, 239) !important;
+}

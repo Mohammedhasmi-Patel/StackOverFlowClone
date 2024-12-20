@@ -17,6 +17,10 @@
     else if(isset($_GET["signup"]) && !isset($_SESSION['user']['username'])){
       include "./client/signup.php";
     }
+
+    else if(isset($_GET['askQuestion'])){
+      include "./client/askQuestions.php";
+    }
     
     ?>
   

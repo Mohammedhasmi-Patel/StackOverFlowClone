@@ -43,8 +43,8 @@ else if(isset($_POST['login'])){
   if($result->num_rows==1){
     $_SESSION["user"] = ["username"=>$username,"email"=>$email];
     header("location:/stackOverFlowClone");
-
-
+  }else{
+    echo "there is an error for login";
   }
 }
 else if(isset($_GET['logout'])){
@@ -52,6 +52,7 @@ else if(isset($_GET['logout'])){
     header("location:/stackOverFlowClone");
 
 }
+
 
 
 ?>
