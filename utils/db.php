@@ -13,6 +13,6 @@ if($conn->connect_error){
 }
 
 
-
+echo "sucess connections";
 
 ?>
